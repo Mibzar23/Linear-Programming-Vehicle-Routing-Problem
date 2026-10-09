@@ -30,11 +30,10 @@ cd Linear-Programming-Vehicle-Routing-Problem/vrp_app
 ```
 
 **3. Create and activate a virtual environment**
-* **Windows:**
-  ```bash
-  python -m venv venv
-  venv\Scripts\activate
-  ```
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
 **4. Install dependencies**
 Install the required packages using the `requirements.txt` file. *(Note: The PuLP library is version 3.3.2 to ensure mathematical stability).*
