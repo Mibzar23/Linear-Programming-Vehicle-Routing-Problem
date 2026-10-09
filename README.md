@@ -1,23 +1,49 @@
 ENGLISH:
 # 🚚 Linear-Programming-Vehicle-Routing-Problem 📦
 
-This repository features a linear programming problem based on the book *"Model Building in Mathematical Programming."* 📚 The objective is to minimize both the time ⏱️ and the number of vehicles 🚐 required in a distribution network. 🌐 This project includes the mathematical formulation 🧮, an Excel-based implementation 📊, and a scalable interactive application 💻.
+This repository features a linear programming problem based on the book *"Model Building in Mathematical Programming."* 📚 The objective is to minimize both the time ⏱️ and the number of vehicles 🚐 required in a distribution network. This project includes the mathematical formulation, an Excel-based implementation, and a scalable interactive application.
 
 ## 🧮 Mathematical Formulation
-The detailed steps for the mathematical formulation are located in the `vrp_math_sol` folder 📂. The solution is decomposed into its core components and solved using a Linear Programming solver with a rigorous mathematical approach 📐. Additionally, an Excel implementation is provided as a user-friendly alternative 📈, condensing the complex equations into accessible variable matrices and cells. 
+The detailed steps for the mathematical formulation are located in the `vrp_math_sol` folder 📂. The solution is decomposed into its core components and solved using a Linear Programming solver with a rigorous mathematical approach. Additionally, an Excel implementation is provided as a user-friendly alternative, condensing the complex equations into accessible variable matrices and cells. 
 *(Note: The Excel implementation requires the Open Solver add-in to be executed ⚙️).*
 
 ## 🌐 Interactive Application
-The interactive web application provides an environment where users have full control over the routing variables and fleet constraints 🎛️. The underlying Python 🐍 architecture is designed to be highly scalable 🚀, allowing for future developments such as API integrations 🔗 and advanced real-time data processing ⚡.
+The interactive web application provides an environment where users have full control over the routing variables and fleet constraints. The underlying Python architecture is designed to be scalable, allowing for future developments such as API integrations and advanced real-time data processing.
 
-ESPAÑOL:
-# 🚚 Linear-Programming-Vehicle-Routing-Problem 📦
+## How to Run the Application Locally
 
-Este repositorio presenta un problema de programación lineal basado en el libro *"Model Building in Mathematical Programming."* 📚 El objetivo es minimizar tanto el tiempo ⏱️ como el número de vehículos 🚐 requeridos en una red de distribución. 🌐 Este proyecto incluye la formulación matemática 🧮, una implementación en Excel 📊 y una aplicación interactiva escalable 💻.
+Follow these instructions to set up and run the Streamlit application on your local machine.
 
-## 🧮 Formulación Matemática
-Los pasos detallados para la formulación matemática se encuentran en la carpeta `vrp_math_sol` 📂. La solución se desglosa en sus componentes principales y se resuelve utilizando un solver de Programación Lineal con un enfoque matemático riguroso 📐. Además, se proporciona una implementación en Excel como una alternativa más accesible 📈, la cual condensa las complejas ecuaciones en matrices de variables y celdas.
-*(Nota: La implementación en Excel requiere la ejecución del complemento Open Solver ⚙️).*
+### Prerequisites
+* **Python 3.8+** installed on your system.
 
-## 🌐 Aplicación Interactiva
-La aplicación web interactiva ofrece un entorno donde los usuarios tienen control total sobre las variables de rutas y las restricciones de la flota 🎛️. La arquitectura subyacente en Python 🐍 está diseñada para ser altamente escalable 🚀, permitiendo desarrollos futuros como integraciones de API 🔗 y procesamiento de datos avanzado en tiempo real ⚡.
+### Installation Steps
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/your-username/Linear-Programming-Vehicle-Routing-Problem.git](https://github.com/Mibzar23/Linear-Programming-Vehicle-Routing-Problem.git)
+```
+
+**2. Navigate to the application folder**
+```bash
+cd Linear-Programming-Vehicle-Routing-Problem/vrp_app
+```
+
+**3. Create and activate a virtual environment**
+* **Windows:**
+  ```bash
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+
+**4. Install dependencies**
+Install the required packages using the `requirements.txt` file. *(Note: The PuLP library is version 3.3.2 to ensure mathematical stability).*
+```bash
+pip install -r requirements.txt
+```
+
+**5. Launch the application**
+```bash
+streamlit run vrp_execution.py
+```
+*Once executed, your default web browser will automatically open a new tab hosting the local VRP Optimizer dashboard.* 🚀
