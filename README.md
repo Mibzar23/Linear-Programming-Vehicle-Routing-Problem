@@ -4,7 +4,8 @@ ENGLISH:
 This repository features a linear programming problem based on the book *"Model Building in Mathematical Programming."* 📚 The objective is to minimize both the time ⏱️ and the number of vehicles 🚐 required in a distribution network. This project includes the mathematical formulation, an Excel-based implementation, and a scalable interactive application.
 
 ## 🧮 Mathematical Formulation
-The detailed steps for the mathematical formulation are located in the `vrp_math_sol` folder 📂. The solution is decomposed into its core components and solved using a Linear Programming solver with a rigorous mathematical approach. Additionally, an Excel implementation is provided as a user-friendly alternative, condensing the complex equations into accessible variable matrices and cells. 
+The detailed steps for the mathematical formulation are located in the `vrp_math_sol` folder 📂. The solution is decomposed into its core components and solved using a Linear Programming solver with a rigorous mathematical approach. Additionally, an Excel implementation is provided as a user-friendly alternative, condensing the complex equations into accessible variable matrices and cells.
+
 *(Note: The Excel implementation requires the Open Solver add-in to be executed ⚙️).*
 
 ## 🌐 Interactive Application
