@@ -9,6 +9,8 @@ The detailed steps for the mathematical formulation are located in the `vrp_math
 *(Note: The Excel implementation requires the Open Solver add-in to be executed ⚙️).*
 
 ## 🌐 Interactive Application
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://linear-programming-vehicle-routing-problem-dxcd6op6l7tbehqfvl5.streamlit.app/)
+
 The interactive web application provides an environment where users have full control over the routing variables and fleet constraints. The underlying Python architecture is designed to be scalable, allowing for future developments such as API integrations and advanced real-time data processing.
 
 ## How to Run the Application Locally
